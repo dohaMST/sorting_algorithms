@@ -30,7 +30,7 @@ void insertion_sort_list(listint_t **list)
 				curr->prev->next = curr;
 			else
 				head = curr;
-			print_list(*list); /* Print the list after each swap */
+			print_list(head); /* Print the list after each swap */
 		}
 		curr = next_node;
 	}
